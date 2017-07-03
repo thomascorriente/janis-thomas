@@ -3,6 +3,11 @@
   "version": "0.0.14",
   "description": "A toolkit for creating a hybrid Chatbot + Human UX",
   "main": "src/janis.js",
+  "scripts": {
+    "start": "node src/janis.js",
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
   "dependencies": {
     "request-promise": "^3.0.0",
     "socket.io-client": "^1.4.8"
